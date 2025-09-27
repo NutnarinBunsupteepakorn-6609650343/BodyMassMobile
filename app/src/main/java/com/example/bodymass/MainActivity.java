@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 String weightStr = edtWeight.getText().toString().trim();
                 String heightStr = edtHeight.getText().toString().trim();
 
-                // chack spacebar
+                // Chack spacebar
                 if (!weightStr.isEmpty() && !heightStr.isEmpty()) {
                     double weight = Double.parseDouble(weightStr);
                     double height = Double.parseDouble(heightStr) / 100.0; // cm -> m
